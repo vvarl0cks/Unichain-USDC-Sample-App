@@ -1,5 +1,5 @@
 {
-  "name": "my-crypto-wallet",
+  "name": "unichain-usdc-sample-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
