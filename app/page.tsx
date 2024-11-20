@@ -1,4 +1,4 @@
-import WalletInterface from './wallet-interface'
+import WalletInterface from './features/wallet/components/WalletInterface'
 
 export default function Home() {
   return (
