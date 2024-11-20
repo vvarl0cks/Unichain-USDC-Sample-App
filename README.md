@@ -58,8 +58,6 @@ After connecting your wallet, you can enter the recipient's address and the amou
 
 This code located in `./app/features/wallet/constants/contracts.ts`, defines the address and the Application Binary Interface (ABI) for the USDC token contract on the Unichain Sepolia network. It allows interaction with the contract to transfer USDC tokens and check balances.
 
-./app/features/wallet/constants/contracts.ts
-
 ```javascript
 // The address of the USDC token contract on the Unichain Sepolia network
 export const USDC_CONTRACT_ADDRESS = '0x31d0220469e10c4E71834a79b1f276d740d3768F';
