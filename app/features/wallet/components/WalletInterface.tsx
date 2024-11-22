@@ -82,7 +82,7 @@ export default function WalletInterface() {
                       />
                       <Input
                         ref={valueInput}
-                        placeholder="Amount USDC"
+                        placeholder="USDC Amount"
                         type="number"
                         className="bg-[#2a2a2a] border-0 text-white placeholder:text-gray-500"
                       />
