@@ -67,8 +67,9 @@ export default function WalletInterface() {
               </Button>
             ) : (
               <div className="space-y-6">
-                <div>
+                <div className="flex items-center">
                   <div className="text-4xl font-bold">${balance || '0.00'}</div>
+                  <img src="/usdc.png" alt="USDC Logo" className="ml-2 w-8 h-8" />
                 </div>
 
                 <Tabs defaultValue="send" className="w-full">
@@ -107,6 +108,11 @@ export default function WalletInterface() {
             )}
           </CardContent>
         </Card>
+        <div className="flex justify-center items-center space-x-4 text-white text-sm mt-4">
+        <a href="https://developers.circle.com/stablecoins/what-is-usdc" className="hover:text-purple-400 transition-colors">What is USDC</a>
+        <a href="https://developers.circle.com/w3s/circle-programmable-wallets-an-overview" className="hover:text-purple-400 transition-colors">Developer Tools</a>
+        <a href="https://www.circle.com" target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 transition-colors">Go to Circle.com</a>
+      </div>
       </div>
     </div>
   )
